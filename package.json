@@ -9,7 +9,7 @@
     "clean": "rimraf build_output .next dist out",
     "format": "prettier --write .",
     "lint": "next lint",
-    "prepare": "husky install",
+    "prepare": "if [ \"$CI\" != \"true\" ]; then husky install; fi"
     "deploy": "npm run build && echo '🚀 Ready to deploy!'"
   },
   "dependencies": {
