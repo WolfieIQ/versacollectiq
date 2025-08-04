@@ -1,0 +1,9 @@
+<svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#glow)" d="M22 2C12 4 8 13 8 22v8c0 2.2 1.8 4 4 4v18c0 3.3 2.7 6 6 6h4V42h-6v-6.5c2 0 4-1.5 4-3.5s-2-3.5-4-3.5v-5c3.3 0 6-2.7 6-6V8c0-2.2-1.8-4-4-6zM42 2c-2.2 0-4 1.8-4 4v8c0 3.3 2.7 6 6 6v5c-2 0-4 1.5-4 3.5s2 3.5 4 3.5V42h-6v16h4c3.3 0 6-2.7 6-6V34c2.2 0 4-1.8 4-4v-8c0-9-4-18-14-20z"/>
+</svg>

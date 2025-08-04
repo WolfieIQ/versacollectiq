@@ -1,0 +1,38 @@
+{
+  "name": "versacollectiq-frontend-v2",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rimraf build_output .next dist out",
+    "format": "prettier --write .",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "deploy": "npm run build && echo '🚀 Ready to deploy!'"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "lucide-react": "^0.292.0",
+    "next": "^13.5.11",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^13.5.6",
+    "husky": "^9.0.7",
+    "postcss": "^8.5.6",
+    "prettier": "^3.0.0",
+    "rimraf": "^5.0.1",
+    "tailwindcss": "^3.4.17",
+    "ts-node": "^10.9.2",
+    "typescript": "5.1.6"
+  }
+}
