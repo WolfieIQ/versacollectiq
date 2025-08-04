@@ -21,8 +21,8 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm install
 
-      - name: 🛠️ Build Project
-        run: npm run build
+      - name: 📥 Install Vercel CLI
+        run: npm install -g vercel
 
       - name: 🚀 Deploy to Vercel
-        run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
