@@ -26,3 +26,10 @@ jobs:
 
       - name: 🚀 Deploy to Vercel
         run: vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: 🏷️ Tag Deploy Version
+        run: |
+          git config user.name "Wolf Border"
+          git config user.email "wolf@wolfiq.com"
+          git tag "v1.0.${{ github.run_number }}"
+          git push origin --tags
